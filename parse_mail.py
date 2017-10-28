@@ -33,6 +33,17 @@ def read_file(filename):
     return lines
         
 
+def decode_b64(content):
+    try:
+        cmd = "echo " + content + " | base64 --decode"
+        ret = subprocess.check_output(cmd.split())
+    except subprocess.CalledProcessError:
+        print(cmd + "is failed")
+        sys.exit()
+
+    return ret
+
+
 def write_file(filename, content):
     with open(filename, 'w') as f:
         f.write(content)
@@ -41,8 +52,13 @@ def write_file(filename, content):
 def get_eml_content(filename):
     gen_parsed_file(filename)
 
+    # decode base64
+    content1 = decode_b64(read_file("part1"))
+    content2 = decode_b64(read_file("part2"))
+
     f_part1 = bs4.BeautifulSoup(read_file("part1"), "lxml").text
     f_part2 = bs4.BeautifulSoup(read_file("part2"), "lxml").text
+
 
     return [f_part1, f_part2]
 
@@ -57,30 +73,73 @@ def get_url(eml_content):
     return url_part1 + url_part2
 
 
-def get_ret_type(html_content):
-    pretar_str = '<div class="labeltitlesmallresult">'
-    tar_addr = html_content.find(pretar_str) + len(pretar_str)
-    ret_type = html_content[tar_addr, tar_addr + 16].split("</div>")[0]
-    return [ret_type]
+def determine_url_type(vt_res):
+    # return the type that more detection sites identify it is as
+    rec = []
+    parse_vt_res = vt_res.split()
 
+    for i in range (len(parse_ret)):
+        if parse_ret[i] == "True,":
+            rec.append(parse_ret[i + 2][1:])
+
+    add_up = {}
+
+    # count which type occurs most of time
+    for t in rec:
+        if t in add_up:
+            add_up[t] += 1
+        else:
+            add_up[t] = 1
+
+    return sorted(add_up.keys())[0]
+            
+
+def get_virus_total_ret(url):
+    # virus total scan url
+    url_scan = "https://www.virustotal.com/vtapi/v2/url/scan"
+    # virus total report url
+    url_report = "https://www.virustotal.com/vtapi/v2/url/report"
+    # my virus total api key
+    apikey = "6a71c63f069c4b966a6c8019b983a89f2132df9e7e212ad3fd9c101d80f74f05"
+
+    # malicious url scan
+    params = {'apikey': apikey, 'url': url}
+    response = requests.post(url_scan, data=params)
+
+    # get malicious url report from virus total
+    params = {'apikey': apikey, 'resource': url}
+    response = requests.get(url_report, params=params)
+
+    if "True" in response.json():
+        return [determine_url_type(response.json())]
+    else:
+        return ["clean"]
+    
 
 def detect_url_type(url_list):
-    base_url = "https://global.sitesafety.trendmicro.com"
-    target_url = "https://global.sitesafety.trendmicro.com/result.php"
-
     ret_type = []
 
     for url in url_list:
-        payload = {"urlname": url}
-        with requests.session() as session:
-            session.get(base_url)
-            res = session.post(target_url, data=payload)
-
-        ret_type += get_ret_type(res.text)
+        ret_type += get_virus_total_ret(url)
 
     return ret_type
             
-        
+
+def det_type_mail(stat_type):
+    if len(stat_type) == 0:
+        return "clean"
+
+    add_up = {}
+    for t in stat_type:
+        if t in add_up:
+            add_up[t] += 1
+        else:
+            add_up[t] = 1
+
+    return sorted(add_up.keys())[0]
+            
+
+
 def translate_content(eml_content):
     translator = googletrans.Translator()
     content0 = translator.translate(eml_content[0]).text
@@ -105,16 +164,19 @@ def main():
     # retrieve email content
     eml_content = get_eml_content(sys.argv[1]) 
 
-    # retrieve url
-    url_list = get_url(eml_content)
-
-    # send url to trend site safety center to help us detect url type 
-    ret_type = detect_url_type(url_list)
-
     # translate to English
     trans_content = translate_content(eml_content)
 
-    # TODO: send part1 and part2 to testing model
+    # retrieve url
+    url_list = get_url(trans_content)
+
+    # send url to url malicious detection site help us detect url type 
+    ret_type = detect_url_type(url_list)
+
+    # determine the type of mail
+    type_mail = det_type_mail(ret_type)
+
+    # send plain content to testing model
     dst_path = "./text_file/"
     for context in trans_content:
         write_file(dst_path + sys.argv[1][:-4] + ".txt", context)
