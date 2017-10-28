@@ -9,22 +9,26 @@ from difflib import SequenceMatcher
 
 
 class Testing:
-    def __init__(self):
+    def __init__(self, keyword_file ,testing_folder):
         self.classname = ['Hams', 'Spam', 'Advertising']   # 0, 1, 2
         self.catagory = []
         self.context = []
+        self.keyword = []
+        self.result = []
+        self._keyword_file = keyword_file
+        self._testing_folder = testing_folder
 
-    def data_loader(self,testing_folder):
-        for catagory_dir in os.listdir(testing_folder):
+    def data_loader(self):
+        for catagory_dir in os.listdir(self._testing_folder):
             if(catagory_dir[-4:] == '.csv'):
-                print("it's csv")
-                self.load_csv(os.path.join(testing_folder,catagory_dir))
+                # print("it's csv")
+                self.load_csv(os.path.join(self._testing_folder,catagory_dir))
                 continue;
             # print(catagory_dir)
             if(catagory_dir == 'Ham'):
-                self.email_reader(os.path.join(testing_folder,catagory_dir),0)
+                self.email_reader(os.path.join(self._testing_folder,catagory_dir),0)
             elif(catagory_dir == 'Spam'):
-                self.email_reader(os.path.join(testing_folder,catagory_dir),1)
+                self.email_reader(os.path.join(self._testing_folder,catagory_dir),1)
 
     def load_csv(self, csv_file):
         count = 0
@@ -63,28 +67,78 @@ class Testing:
         return content # return feature list
 
     def save_csv(self):
-        csv_columns = ['Keyword','Catagory']
         try:
             with open("data.csv", 'w') as csvfile:
                 writer = csv.writer(csvfile)
-                for row in self.feature:
-                    writer.writerow(row)
+                k = []
+                for i in self.result[0]:
+                    l = []
+                    for row in self.result:
+                        l.append(row)
+                    k.append(l)
+                for kr in k:
+                    writer.writerow(kr)
         except IOError as (errno, strerror):
             print("I/O error({0}): {1}".format(errno, strerror))
         return
 
+    def score(self):
+        zipped = zip(self.catagory, self.context)
+        combined = list(zipped)
+        random.shuffle(combined)
+        self.catagory[:], self.context[:] = zip(*combined)
+        self.read_keyword() # parse keyword from csv
+        # print(len(self.keyword))
+        for key  in self.keyword:
+            feature_vector = []
+            
+            for i in range(len(self.context)):
+                content = self.read_email_context(self.context[i])
+                mail = SequenceMatcher(None, content, key) # content plain-text
+                feature_vector.append(mail.ratio())
+            self.result.append(feature_vector) # num_key * num_data
+        # print(len(self.result)) 390
+        # print(len(self.result[0])) 22554
+
+    def read_email_context(self, mail):
+        content = ""
+        for i,line in enumerate(mail):
+            cnt_line = 0 
+            if cnt_line <= i and i > 3: # prevent error
+                cnt_line += 1
+                if len(line) < 6:
+                    continue # prevent strange text
+                if len(line) > 250:
+                    continue # prevent strange text
+                if re.match(r'\s', line):
+                    continue # prevent strange text
+                if re.match(r'\w', line):
+                    content += " " + line
+        return content
+
+    def read_keyword(self):
+        x = []
+        y = []
+        with open(self._keyword_file, "r") as f:
+            reader = csv.reader(f)
+            for row in reader:
+                x.append(row[0])    # key
+                y.append(row[1])    # catagory
+        zipped = zip(x,y)
+        self.keyword = list(zipped)
 
 if __name__ == "__main__":
-    if len(sys.argv) is not 2:
-        print 'Usage: python2.7 testing.py ' + ' <testing data directory name>'
+    if len(sys.argv) is not 3:
+        print 'Usage: python2.7 testing.py '  + ' <keyword dircectory name> '+ ' <testing data directory name>'
         sys.exit(1)
 
 
-    ts = Testing();
-    testing_folder = sys.argv[1]
-    ts.data_loader(testing_folder)
-    print(len(ts.catagory))
-    print(len(ts.context))
+    ts = Testing(sys.argv[1], sys.argv[2]);
+    ts.data_loader()
+    # print(len(ts.catagory))
+    # print(len(ts.context))
+    ts.score()
     # load keyword feature vector 1 * 3000
     # load email and training the data.csv
     # ts.train(train_folder)
+    ts.save_csv()
