@@ -10,11 +10,12 @@
 import sys
 from autoencoder import Autoencoder
 from parser import Parser
-
+import csv
+import numpy as np
 
 if __name__ == "__main__":
 	if len(sys.argv) is not 3:
-		print 'Usage: python2.7 main.py ' + ' <keyword directory name> ' + 'mode 0 ---> parse data/ mode 1 --->autoencoder'
+		print 'Usage: python2.7 main.py ' + ' <keyword extraction directory name> ' + 'mode 0 ---> get keyword / mode 1 ---> data to autoencoder'
 		sys.exit(1)
 if(sys.argv[2] == '0'):
 	ps = Parser()
@@ -25,17 +26,15 @@ if(sys.argv[2] == '0'):
 	print(input_dim)
 	ps.save_csv()
 
-else if(sys.argv[2] == '1'):
+elif(sys.argv[2] == '1'):
 	hidden_dim = 2
 	x = []
 	y = []
 	count = 0
-	with open(csv_file, "r") as f:
+	with open(str(sys.argv[1]), "r") as f:
 		reader = csv.reader(f)
 		for row in reader:
-			x.append(row[0])
-			y.append(row[1])
-		keywords = np.hstack((x,y))
-	ae = Autoencoder(input_dim, hidden_dim)
-
-ae.train(data)
+			input_dim = len(row)
+			ae = Autoencoder(input_dim, hidden_dim)
+			ae.train(np.array(row).reshape(1,input_dim))
+			#print(input_dim)

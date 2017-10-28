@@ -1,0 +1,1159 @@
+X-Original-To: f-pcsl@feeds.ers.trendmicro.com
+Delivered-To: f-pcsl@feeds.ers.trendmicro.com
+Received: from cnmsg.net (em.safeplus.org [163.172.21.28])
+	by feed.ops.mail-abuse.com (Postfix) with ESMTP id 02E508E8165
+	for <f-pcsl@feeds.ers.trendmicro.com>; Thu, 31 Aug 2017 04:23:20 +0000 (UTC)
+Received: from gateway-68360 (62-210-93-48.rev.poneytelecom.eu [62.210.93.48]) by
+ cnmsg.net with ESMTP ; Thu, 31 Aug 2017 12:22:53 +0800
+Received: from gateway-68360 (localhost [127.0.0.1]) by filter.local (Postfix) with
+ ESMTP id F1F0E6C0126 for <dipedal@postonline.me>; Thu, 31 Aug 2017 12:23:19
+ +0800 (CST)
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on gateway-68360.localhost
+X-Spam-ISSPAM-FLAG: No
+X-Spam-Status: score=2.2 required=5.0 tests=DKIM_ADSP_CUSTOM_MED,DKIM_SIGNED,
+ EN_MSG_INTENTIONAL_SPELL_ERROR,EN_W_HEAD_3,FREEMAIL_FROM,HTML_MESSAGE,
+ KAM_REALLYHUGEIMGSRC,NML_ADSP_CUSTOM_MED,T_DKIM_INVALID,URIBL_SC_SWINOG
+ autolearn=disabled
+Received: from o1.email.gumroad.com (o1.email.gumroad.com [50.31.61.243]) by
+ gateway-68360 (Postfix) with ESMTPS id 62AE46C01C1 for <dipedal@postonline.me>;
+ Thu, 31 Aug 2017 12:23:19 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=gumroad.com;  h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding;
+  s=smtpapi; bh=VgHlNGrDWNuXuHwa8em9P+u21I8=; b=lKLyClHgoZHmjy73E0
+ ubTSzGLditoKtQ+y9fZCzAmN+1ehdWVlc8IEIiXUS9+tmD4IdxMjlHIYKOW1abhm
+ TXCTjy+fVZU/AyHy3ImFbhVIuHyLaANcpi6YZSSM9xQ8DgJwxrzxtg2a+YDvphlW
+ 9CLH8UhTP2it3cM2GEduWEOw0=
+Received: by filter0372p1las1.sendgrid.net with SMTP id
+ filter0372p1las1-27006-59A78F2E-32 2017-08-31 04:23:10.916256043 +0000 UTC
+Received: from gumroad.com (ec2-34-193-146-117.compute-1.amazonaws.com [34.193.146.117])
+ by ismtpd0004p1iad1.sendgrid.net (SG) with ESMTP id UOYq0vSeT8aKoD1zeJQ2zA
+ for <dipedal@postonline.me>; Thu, 31 Aug 2017 04:23:10.575 +0000 (UTC)
+Date: Thu, 31 Aug 2017 04:23:11 +0000 (UTC)
+From: Michael Dunnam <mdunnam@gmail.com>
+Reply-To: mdunnam@gmail.com
+To: dipedal@postonline.me
+Message-ID: <59a78f2e7ff45_eefca7984905d@resque_worker-c9969d2e-ddda-5b69-aa9f-8ebec05a4d51.mail>
+Subject: New Brush Release! Fur! :D
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="--==_mimepart_59a78f2e74acc_eefca7984904da";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: lgNiLnCdw7mKmfiDMw0PYQ3NmXI9LRwsAXka4S4g9M1tZf1ufSvmdFQs/z3wF/hr0vx+8I8TvU6Pvs
+ tB+9g+CmWwl7LYAlWG/kSbd+vmSv7/Yxj18aQnaIQj9oEPjqbZtyCTQgBZO0TPOpqgDfYbQP1/fbLR
+ sJbF5ISvPVrA/ceg7rMTdpIxtpgSVhjy95FLinHgUYpOBLUV7iBb8HVkFS5YMM7v/jhSKpyrc4uTzT
+ o=
+X-SG-ID: MU0EKnfNmwAvMhDkGshHcBozZ1ZALZM45Lpo4nIf2OQccOHBaGIuxcOdHST89sFGy7sZVWP6Hf6sbX
+ 2KX5ADTIOQyTI8F6Ckm3ks1zMuKi22SODAhxuDr1uRh5+Fq4G4Pqrz6h09fUXP5AUzdiXlcEx70CC0
+ N8Sx+anq4/gN2kG/nYg0WyZcSgzo3u2dmqzDNuyKHhptTGcESjJ2lRIBkXeSZnOzjDBqIN9o6RrtJI
+ m9lbofjJcFzveA7IHSdOq1PNpc014yeStg6EJNV4V6PQeKeNcA85XsJHwmwhiQXnP0OXxmHMFSoS+1
+ JHHmY4V9
+X-hMailServer-LoopCount: 1
+
+----==_mimepart_59a78f2e74acc_eefca7984904da
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hey there! I just released a new set for XMD Members only. This
+set is a 29 Fur Brush set that includes 2048 tilable fur alphas!
+The icon renders don'
+
+New Brush Release! Fur! :D
+--------------------------
+
+Hey there! I just released a new set for XMD Members only. This
+set is a 29 Fur Brush set that includes 2048 tilable fur alphas!
+The icon renders don't really do these brushes justice. To
+celebrate this release, I am having a 30% off sale on my
+Life-Time membership. You can grab this fur brush set along with
+20 other member only sets! The membership also includes
+everything I have released on Gumroad.
+
+Here is what you get with the membership
+
+* Over 1100 Zbrush Brushes
+
+* Substance Painter Brushes
+
+* 3D Coat Brushes
+
+* Over 800 Alphas to use in any software you want
+
+* Access to the XMD Private Facebook Group for Members only
+
+* The XMD ToolBox Plugin for ZBrush
+
+* Everything I release on Gumroad in the future.
+* And so much more!
+
+Grab it while you can. The coupon will expire soon!
+
+Enjoy :)
+
+I want these brushes! ( https://gumroad.com/l/xmdlifetime/fur30 )
+
+You'll get updates from this creator in the future.
+Unfollow ( https://gumroad.com/follow/PkQL-oaYf0UuzjuCT9i-qA==/cancel ).
+
+Gumroad ( https://gumroad.com/ ), 225 Valencia St, San Francisco,
+CA
+----==_mimepart_59a78f2e74acc_eefca7984904da
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Brush Release! Fur! :D</title>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type">
+<meta content=3D"initial-scale =3D 1.0, user-scalable =3D no, width=3Ddevic=
+e-width" name=3D"viewport">
+
+</head>
+<body style=3D"background: #efefe9; font-family: -apple-system, '.SFNSDispl=
+ay-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14p=
+x; margin: 0; padding: 0" bgcolor=3D"#efefe9">
+<style type=3D"text/css">
+@-webkit-keyframes spinner {
+
+}
+@keyframes spinner {
+
+}
+.or-section:before {
+background-color: #ddd; position: absolute; content: ""; height: 100%; widt=
+h: 1px; top: 0; left: 50%;
+}
+.or-section:after {
+width: 50px; height: 50px; display: block; background: #f8f8f8; border-radi=
+us: 50%; content: "or"; color: #ddd; line-height: 50px; text-transform: upp=
+ercase; position: absolute; top: 50%; left: 50%; -webkit-transform: transla=
+teX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%=
+); transform: translateX(-50%) translateY(-50%); text-align: center;
+}
+.with-rich-text a:not(.button):active {
+color: #111;
+}
+.product-description a:not(.button):active {
+color: #111;
+}
+body {
+background-color: #efefe9; font-family: -apple-system, ".SFNSDisplay-Regula=
+r", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; paddin=
+g: 0; margin: 0;
+}
+body .plain-content-container {
+background: #fff; padding: 20px; border-bottom: 1px solid #ddd;
+}
+body .plain-content-container .plain-content {
+max-width: 562px;
+}
+body table {
+border-collapse: separate; border-spacing: 0; width: 100%;
+}
+body img {
+display: block; max-width: 100%;
+}
+body img.top-stripes {
+height: 12px; margin: 0 auto; width: 562px;
+}
+body img.pig {
+vertical-align: top; width: 126px; height: 146px; display: block; margin: 1=
+1px 30px 0;
+}
+body img.framed {
+border-radius: 4px; border: 1px solid #ddd; margin: 30px auto; box-shadow: =
+0 1px 2px rgba(0, 0, 0, 0.15);
+}
+body .title {
+text-align: center;
+}
+body .title h4 {
+color: #252a2e; font-size: 18px; margin: 0; padding: 15px; font-weight: bol=
+d; text-align: center; text-transform: none;
+}
+body .title img {
+display: block; margin: 5px auto 0; text-align: center;
+}
+body a {
+color: #36a9ae;
+}
+body a.button {
+background: #36a9ae; border: 1px solid #4a8589; border-radius: 4px; color: =
+#fff !important; display: inline-block; font-size: 16px; font-weight: norma=
+l; line-height: 19px; padding: 8px 12px; text-align: center; text-decoratio=
+n: none; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+body a.button.wide {
+clear: both; display: block;
+}
+body a.button.big {
+padding: 16px 12px; line-height: 22px;
+}
+body a.gray-button {
+background: #eee; border-radius: 4px; color: #454545 !important; font-size:=
+ 13px; font-weight: bold; padding: 7px 10px; text-decoration: none; display=
+: inline-block;
+}
+body a.facebook-button img {
+vertical-align: bottom; display: inline; width: 79px;
+}
+body a.twitter-button {
+margin-right: 15px;
+}
+body a.twitter-button img {
+vertical-align: bottom; display: inline; width: 81px;
+}
+body h3 {
+color: #252a2e; font-weight: bold; margin: 20px 0;
+}
+body h3.update-header {
+margin-top: 0;
+}
+body hr {
+background-color: #eee; border: 0; min-height: 1px; height: 1px; margin: 20=
+px 0;
+}
+body .callout_wrapper {
+border: 1px solid #f5f5f5; border-radius: 5px; border-width: 0 1px 2px; ove=
+rflow: hidden; position: relative;
+}
+body .callout_wrapper .callout {
+background: #fff; border: 1px solid #ddd; border-radius: 4px; overflow: hid=
+den; position: relative; text-decoration: none;
+}
+body .callout_wrapper .callout img {
+display: block; width: 100%;
+}
+body .callout_wrapper .callout strong {
+color: #444; display: block; font-size: 20px; font-weight: bold; margin: 0 =
+20px 20px; padding-top: 20px; text-decoration: none;
+}
+body .callout_wrapper .product-description {
+margin: 20px;
+}
+body .callout_wrapper .product-description a {
+color: #252a2e; text-decoration: underline; white-space: pre; word-wrap: br=
+eak-word;
+}
+body .callout_wrapper .product-description blockquote {
+font-family: Georgia, serif; font-style: italic; margin-bottom: 12px;
+}
+body .callout_wrapper .product-description blockquote:last-child {
+margin-bottom: 0;
+}
+body .callout_wrapper .product-description p {
+margin: 0 0 12px;
+}
+body .callout_wrapper .product-description p:last-child {
+margin-bottom: 0;
+}
+body .callout_wrapper .product-description ul {
+list-style: disc;
+}
+body .callout_wrapper .product-description ul li {
+margin-left: 20px;
+}
+body .middle-column {
+width: 562px; padding: 40px 0 0;
+}
+body .content-container {
+width: 562px; padding: 20px 30px;
+}
+body p {
+color: #797874; font-size: 16px; line-height: 27px; margin: 15px 0; word-wr=
+ap: break-word;
+}
+body li {
+color: #797874; font-size: 16px; line-height: 27px; margin: 15px 0; word-wr=
+ap: break-word;
+}
+body p:last-of-type {
+margin-bottom: 0;
+}
+body li:last-of-type {
+margin-bottom: 0;
+}
+body p strong {
+color: #444;
+}
+body li strong {
+color: #444;
+}
+body p a {
+color: #36a8ae; text-decoration: underline; word-wrap: break-word;
+}
+body li a {
+color: #36a8ae; text-decoration: underline; word-wrap: break-word;
+}
+body p.large {
+font-size: 18px; line-height: 32px;
+}
+body li.large {
+font-size: 18px; line-height: 32px;
+}
+body p.text-center {
+text-align: center;
+}
+body li.text-center {
+text-align: center;
+}
+body p.gift {
+margin-bottom: 5px;
+}
+body li.gift {
+margin-bottom: 5px;
+}
+body p.gift strong {
+color: #444; font-size: 24px; font-weight: normal; margin-right: 10px;
+}
+body li.gift strong {
+color: #444; font-size: 24px; font-weight: normal; margin-right: 10px;
+}
+body p.gift_note {
+background-color: #fafafa; border: 1px solid #eee; border-radius: 4px; marg=
+in-bottom: 25px; padding: 15px;
+}
+body li.gift_note {
+background-color: #fafafa; border: 1px solid #eee; border-radius: 4px; marg=
+in-bottom: 25px; padding: 15px;
+}
+body p.top {
+margin-top: 15px;
+}
+body li.top {
+margin-top: 15px;
+}
+body p.date {
+font-size: 14px; background: #e76c5e; border: 1px solid #e35c4d; border-rad=
+ius: 4px; color: #fff; display: inline-block; font-weight: bold !important;=
+ line-height: 20px; margin-top: 0; padding: 8px;
+}
+body li.date {
+font-size: 14px; background: #e76c5e; border: 1px solid #e35c4d; border-rad=
+ius: 4px; color: #fff; display: inline-block; font-weight: bold !important;=
+ line-height: 20px; margin-top: 0; padding: 8px;
+}
+body p.info {
+color: #797874; font-size: 16px; line-height: 24px; margin: 0 20px 10px 0;
+}
+body li.info {
+color: #797874; font-size: 16px; line-height: 24px; margin: 0 20px 10px 0;
+}
+body p.money {
+color: #252a2e; font-size: 42px; font-weight: bold !important; line-height:=
+ 50px; margin: 26px 0 4px;
+}
+body li.money {
+color: #252a2e; font-size: 42px; font-weight: bold !important; line-height:=
+ 50px; margin: 26px 0 4px;
+}
+body .footer {
+margin: 20px 0;
+}
+body .footer.centered {
+text-align: center;
+}
+body .footer p {
+font-size: 14px; padding: 0 15px;
+}
+body .footer a {
+color: #666;
+}
+body .product-name {
+color: #444; margin-right: 10px; font-size: 24px; font-weight: normal;
+}
+body .product-name a {
+color: #444;
+}
+body .product-name small {
+color: #aaa; font-size: 15px;
+}
+body .gray-box {
+background: #fafafa; border: 1px solid #eee; border-radius: 4px; margin-top=
+: 25px;
+}
+body .gray-box h5 {
+color: #777; padding: 0 20px; margin-bottom: 0; font-size: 14px; font-weigh=
+t: 500;
+}
+body .gray-box h3 {
+color: #777; padding: 0 20px; margin-bottom: 0; font-size: 14px; font-weigh=
+t: 500;
+}
+body .gray-box p {
+color: #777; font-size: 14px; margin: 20px 0 10px; padding: 0 20px 20px; bo=
+rder-bottom: 1px dotted #eee;
+}
+body .gray-box p.license-key {
+font-family: Courier; margin: 0;
+}
+body .gray-box p:last-of-type {
+padding-bottom: 10px; border-bottom: 0;
+}
+body .gray-box table td {
+border-bottom: 1px dotted #eee; color: #777; padding: 14px 0 12px !importan=
+t; text-align: left;
+}
+body .gray-box table th {
+border-bottom: 1px dotted #eee; color: #777; padding: 14px 0 12px !importan=
+t; text-align: left;
+}
+body .gray-box table tdth {
+font-weight: bold;
+}
+body .gray-box table thth {
+font-weight: bold;
+}
+body .gray-box table td:first-child {
+padding: 14px 0 12px 14px !important;
+}
+body .gray-box table th:first-child {
+padding: 14px 0 12px 14px !important;
+}
+body .gray-box .twitter-button {
+display: inline-block; margin-top: 20px;
+}
+body .gray-box .facebook-button {
+display: inline-block; margin-top: 20px;
+}
+body .gray-box .twitter-button img {
+display: inline;
+}
+body .gray-box .facebook-button img {
+display: inline;
+}
+body .default-table tr td {
+color: #797874;
+}
+body .default-table tr td strong {
+color: #444; font-weight: normal;
+}
+body .default-table tr td.right {
+text-align: right;
+}
+body .default-table .logo {
+display: inline-block; margin-right: 5px; vertical-align: text-top;
+}
+body .tax-table tr td {
+padding-bottom: 10px;
+}
+body .tax-table tr:last-child td {
+padding-bottom: 0;
+}
+body .deposit-table {
+text-align: left; font-size: 16px;
+}
+body .deposit-table th {
+color: #252a2e;
+}
+body .deposit-table tr th {
+padding: 10px 0 !important;
+}
+body .deposit-table tr td {
+padding: 10px 0 !important;
+}
+body .deposit-table tr th:nth-child(2) {
+text-align: right;
+}
+body .deposit-table tr td:nth-child(2) {
+text-align: right;
+}
+body .deposit-table tr th a {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr th span {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr td a {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr td span {
+color: #797874; text-decoration: none;
+}
+body .last-week-header {
+text-align: center; padding-top: 10px; padding-bottom: 30px; border-bottom:=
+ 1px solid #f5f5f5; margin-bottom: 20px;
+}
+body .last-week-header td {
+width: 50%; font-weight: bold;
+}
+body .last-week-header td:first-child {
+border-right: 1px solid #f5f5f5;
+}
+body .last-week-header strong {
+font-size: 36px; display: block; margin: 16px 0 4px;
+}
+body .last-week-table tr td {
+padding: 10px 0 !important; font-size: 17px; color: #797874;
+}
+body .last-week-table tr td a {
+color: #36a9ae; text-decoration: underline;
+}
+body .last-week-table tr td p {
+margin: 0;
+}
+body .last-week-table tr td.left {
+text-align: left;
+}
+body .last-week-table tr td.right {
+text-align: right;
+}
+body .signoff {
+overflow: hidden;
+}
+body .signoff .tagline {
+float: left; margin: 25px 0 0 10px;
+}
+body .signoff .tagline h4 {
+color: #666; font-size: 16px; font-weight: bold; margin: 0;
+}
+body .signoff .tagline p {
+color: #797874; font-family: Georgia, serif; font-size: 14px; font-style: i=
+talic; margin: 0;
+}
+body .signoff img {
+float: left; height: 64px; margin: 14px 12px 0 0; width: 64px;
+}
+body .update-cover-image {
+border: 1px solid #ddd; border-radius: 4px; width: 100%;
+}
+@-webkit-keyframes spinner {
+
+}
+@keyframes spinner {
+
+}
+.or-section:before {
+background-color: #ddd; position: absolute; content: ""; height: 100%; widt=
+h: 1px; top: 0; left: 50%;
+}
+.or-section:after {
+width: 50px; height: 50px; display: block; background: #f8f8f8; border-radi=
+us: 50%; content: "or"; color: #ddd; line-height: 50px; text-transform: upp=
+ercase; position: absolute; top: 50%; left: 50%; -webkit-transform: transla=
+teX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%=
+); transform: translateX(-50%) translateY(-50%); text-align: center;
+}
+.with-rich-text a:not(.button):active {
+color: #111;
+}
+.product-description a:not(.button):active {
+color: #111;
+}
+body {
+background-color: #efefe9; font-family: -apple-system, ".SFNSDisplay-Regula=
+r", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; paddin=
+g: 0; margin: 0;
+}
+body .plain-content-container {
+background: #fff; padding: 20px; border-bottom: 1px solid #ddd;
+}
+body .plain-content-container .plain-content {
+max-width: 562px;
+}
+body table {
+border-collapse: separate; border-spacing: 0; width: 100%;
+}
+body img {
+display: block; max-width: 100%;
+}
+body img.top-stripes {
+height: 12px; margin: 0 auto; width: 562px;
+}
+body img.pig {
+vertical-align: top; width: 126px; height: 146px; display: block; margin: 1=
+1px 30px 0;
+}
+body img.framed {
+border-radius: 4px; border: 1px solid #ddd; margin: 30px auto; box-shadow: =
+0 1px 2px rgba(0, 0, 0, 0.15);
+}
+body .title {
+text-align: center;
+}
+body .title h4 {
+color: #252a2e; font-size: 18px; margin: 0; padding: 15px; font-weight: bol=
+d; text-align: center; text-transform: none;
+}
+body .title img {
+display: block; margin: 5px auto 0; text-align: center;
+}
+body a {
+color: #36a9ae;
+}
+body a.button {
+background: #36a9ae; border: 1px solid #4a8589; border-radius: 4px; color: =
+#fff !important; display: inline-block; font-size: 16px; font-weight: norma=
+l; line-height: 19px; padding: 8px 12px; text-align: center; text-decoratio=
+n: none; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+body a.button.wide {
+clear: both; display: block;
+}
+body a.button.big {
+padding: 16px 12px; line-height: 22px;
+}
+body a.gray-button {
+background: #eee; border-radius: 4px; color: #454545 !important; font-size:=
+ 13px; font-weight: bold; padding: 7px 10px; text-decoration: none; display=
+: inline-block;
+}
+body a.facebook-button img {
+vertical-align: bottom; display: inline; width: 79px;
+}
+body a.twitter-button {
+margin-right: 15px;
+}
+body a.twitter-button img {
+vertical-align: bottom; display: inline; width: 81px;
+}
+body h3 {
+color: #252a2e; font-weight: bold; margin: 20px 0;
+}
+body h3.update-header {
+margin-top: 0;
+}
+body hr {
+background-color: #eee; border: 0; min-height: 1px; height: 1px; margin: 20=
+px 0;
+}
+body .callout_wrapper {
+border: 1px solid #f5f5f5; border-radius: 5px; border-width: 0 1px 2px; ove=
+rflow: hidden; position: relative;
+}
+body .callout_wrapper .callout {
+background: #fff; border: 1px solid #ddd; border-radius: 4px; overflow: hid=
+den; position: relative; text-decoration: none;
+}
+body .callout_wrapper .callout img {
+display: block; width: 100%;
+}
+body .callout_wrapper .callout strong {
+color: #444; display: block; font-size: 20px; font-weight: bold; margin: 0 =
+20px 20px; padding-top: 20px; text-decoration: none;
+}
+body .callout_wrapper .product-description {
+margin: 20px;
+}
+body .callout_wrapper .product-description a {
+color: #252a2e; text-decoration: underline; white-space: pre; word-wrap: br=
+eak-word;
+}
+body .callout_wrapper .product-description blockquote {
+font-family: Georgia, serif; font-style: italic; margin-bottom: 12px;
+}
+body .callout_wrapper .product-description blockquote:last-child {
+margin-bottom: 0;
+}
+body .callout_wrapper .product-description p {
+margin: 0 0 12px;
+}
+body .callout_wrapper .product-description p:last-child {
+margin-bottom: 0;
+}
+body .callout_wrapper .product-description ul {
+list-style: disc;
+}
+body .callout_wrapper .product-description ul li {
+margin-left: 20px;
+}
+body .middle-column {
+width: 562px; padding: 40px 0 0;
+}
+body .content-container {
+width: 562px; padding: 20px 30px;
+}
+body p {
+color: #797874; font-size: 16px; line-height: 27px; margin: 15px 0; word-wr=
+ap: break-word;
+}
+body li {
+color: #797874; font-size: 16px; line-height: 27px; margin: 15px 0; word-wr=
+ap: break-word;
+}
+body p:last-of-type {
+margin-bottom: 0;
+}
+body li:last-of-type {
+margin-bottom: 0;
+}
+body p strong {
+color: #444;
+}
+body li strong {
+color: #444;
+}
+body p a {
+color: #36a8ae; text-decoration: underline; word-wrap: break-word;
+}
+body li a {
+color: #36a8ae; text-decoration: underline; word-wrap: break-word;
+}
+body p.large {
+font-size: 18px; line-height: 32px;
+}
+body li.large {
+font-size: 18px; line-height: 32px;
+}
+body p.text-center {
+text-align: center;
+}
+body li.text-center {
+text-align: center;
+}
+body p.gift {
+margin-bottom: 5px;
+}
+body li.gift {
+margin-bottom: 5px;
+}
+body p.gift strong {
+color: #444; font-size: 24px; font-weight: normal; margin-right: 10px;
+}
+body li.gift strong {
+color: #444; font-size: 24px; font-weight: normal; margin-right: 10px;
+}
+body p.gift_note {
+background-color: #fafafa; border: 1px solid #eee; border-radius: 4px; marg=
+in-bottom: 25px; padding: 15px;
+}
+body li.gift_note {
+background-color: #fafafa; border: 1px solid #eee; border-radius: 4px; marg=
+in-bottom: 25px; padding: 15px;
+}
+body p.top {
+margin-top: 15px;
+}
+body li.top {
+margin-top: 15px;
+}
+body p.date {
+font-size: 14px; background: #e76c5e; border: 1px solid #e35c4d; border-rad=
+ius: 4px; color: #fff; display: inline-block; font-weight: bold !important;=
+ line-height: 20px; margin-top: 0; padding: 8px;
+}
+body li.date {
+font-size: 14px; background: #e76c5e; border: 1px solid #e35c4d; border-rad=
+ius: 4px; color: #fff; display: inline-block; font-weight: bold !important;=
+ line-height: 20px; margin-top: 0; padding: 8px;
+}
+body p.info {
+color: #797874; font-size: 16px; line-height: 24px; margin: 0 20px 10px 0;
+}
+body li.info {
+color: #797874; font-size: 16px; line-height: 24px; margin: 0 20px 10px 0;
+}
+body p.money {
+color: #252a2e; font-size: 42px; font-weight: bold !important; line-height:=
+ 50px; margin: 26px 0 4px;
+}
+body li.money {
+color: #252a2e; font-size: 42px; font-weight: bold !important; line-height:=
+ 50px; margin: 26px 0 4px;
+}
+body .footer {
+margin: 20px 0;
+}
+body .footer.centered {
+text-align: center;
+}
+body .footer p {
+font-size: 14px; padding: 0 15px;
+}
+body .footer a {
+color: #666;
+}
+body .product-name {
+color: #444; margin-right: 10px; font-size: 24px; font-weight: normal;
+}
+body .product-name a {
+color: #444;
+}
+body .product-name small {
+color: #aaa; font-size: 15px;
+}
+body .gray-box {
+background: #fafafa; border: 1px solid #eee; border-radius: 4px; margin-top=
+: 25px;
+}
+body .gray-box h5 {
+color: #777; padding: 0 20px; margin-bottom: 0; font-size: 14px; font-weigh=
+t: 500;
+}
+body .gray-box h3 {
+color: #777; padding: 0 20px; margin-bottom: 0; font-size: 14px; font-weigh=
+t: 500;
+}
+body .gray-box p {
+color: #777; font-size: 14px; margin: 20px 0 10px; padding: 0 20px 20px; bo=
+rder-bottom: 1px dotted #eee;
+}
+body .gray-box p.license-key {
+font-family: Courier; margin: 0;
+}
+body .gray-box p:last-of-type {
+padding-bottom: 10px; border-bottom: 0;
+}
+body .gray-box table td {
+border-bottom: 1px dotted #eee; color: #777; padding: 14px 0 12px !importan=
+t; text-align: left;
+}
+body .gray-box table th {
+border-bottom: 1px dotted #eee; color: #777; padding: 14px 0 12px !importan=
+t; text-align: left;
+}
+body .gray-box table tdth {
+font-weight: bold;
+}
+body .gray-box table thth {
+font-weight: bold;
+}
+body .gray-box table td:first-child {
+padding: 14px 0 12px 14px !important;
+}
+body .gray-box table th:first-child {
+padding: 14px 0 12px 14px !important;
+}
+body .gray-box .twitter-button {
+display: inline-block; margin-top: 20px;
+}
+body .gray-box .facebook-button {
+display: inline-block; margin-top: 20px;
+}
+body .gray-box .twitter-button img {
+display: inline;
+}
+body .gray-box .facebook-button img {
+display: inline;
+}
+body .default-table tr td {
+color: #797874;
+}
+body .default-table tr td strong {
+color: #444; font-weight: normal;
+}
+body .default-table tr td.right {
+text-align: right;
+}
+body .default-table .logo {
+display: inline-block; margin-right: 5px; vertical-align: text-top;
+}
+body .tax-table tr td {
+padding-bottom: 10px;
+}
+body .tax-table tr:last-child td {
+padding-bottom: 0;
+}
+body .deposit-table {
+text-align: left; font-size: 16px;
+}
+body .deposit-table th {
+color: #252a2e;
+}
+body .deposit-table tr th {
+padding: 10px 0 !important;
+}
+body .deposit-table tr td {
+padding: 10px 0 !important;
+}
+body .deposit-table tr th:nth-child(2) {
+text-align: right;
+}
+body .deposit-table tr td:nth-child(2) {
+text-align: right;
+}
+body .deposit-table tr th a {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr th span {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr td a {
+color: #797874; text-decoration: none;
+}
+body .deposit-table tr td span {
+color: #797874; text-decoration: none;
+}
+body .last-week-header {
+text-align: center; padding-top: 10px; padding-bottom: 30px; border-bottom:=
+ 1px solid #f5f5f5; margin-bottom: 20px;
+}
+body .last-week-header td {
+width: 50%; font-weight: bold;
+}
+body .last-week-header td:first-child {
+border-right: 1px solid #f5f5f5;
+}
+body .last-week-header strong {
+font-size: 36px; display: block; margin: 16px 0 4px;
+}
+body .last-week-table tr td {
+padding: 10px 0 !important; font-size: 17px; color: #797874;
+}
+body .last-week-table tr td a {
+color: #36a9ae; text-decoration: underline;
+}
+body .last-week-table tr td p {
+margin: 0;
+}
+body .last-week-table tr td.left {
+text-align: left;
+}
+body .last-week-table tr td.right {
+text-align: right;
+}
+body .signoff {
+overflow: hidden;
+}
+body .signoff .tagline {
+float: left; margin: 25px 0 0 10px;
+}
+body .signoff .tagline h4 {
+color: #666; font-size: 16px; font-weight: bold; margin: 0;
+}
+body .signoff .tagline p {
+color: #797874; font-family: Georgia, serif; font-size: 14px; font-style: i=
+talic; margin: 0;
+}
+body .signoff img {
+float: left; height: 64px; margin: 14px 12px 0 0; width: 64px;
+}
+body .update-cover-image {
+border: 1px solid #ddd; border-radius: 4px; width: 100%;
+}
+@media only screen and (max-width: 570px) {
+  td#leftcolumn {
+    width: 0 !important; height: 0 !important; display: none !important;
+  }
+  td#rightcolumn {
+    width: 0 !important; height: 0 !important; display: none !important;
+  }
+  .top-stripes {
+    font-size: 0 !important; line-height: 0 !important; max-height: 0 !impo=
+rtant; mso-hide: all !important; width: 0 !important; overflow: hidden !imp=
+ortant;
+  }
+  .bottom {
+    font-size: 0 !important; line-height: 0 !important; max-height: 0 !impo=
+rtant; mso-hide: all !important; width: 0 !important; overflow: hidden !imp=
+ortant;
+  }
+  .top-stripes-mobile {
+    height: 3px !important; max-height: 3px !important; mso-hide: none !imp=
+ortant; width: 100% !important;
+  }
+  .bottom-mobile {
+    height: 17px !important; max-height: 17px !important; mso-hide: none !i=
+mportant; width: 100% !important;
+  }
+  .middle-column {
+    width: 100% !important; padding: 0 !important;
+  }
+  .content-container {
+    width: 100% !important; background: white !important; padding: 15px !im=
+portant; border-bottom: 1px solid #ddd !important;
+  }
+  .content-container.receipt {
+    border-bottom: 0 !important;
+  }
+  span.pigholder {
+    margin: 0 auto !important; display: block !important; width: 150px !imp=
+ortant;
+  }
+  img.pig {
+    float: none !important; margin: 0 !important;
+  }
+  hr {
+    margin: 15px 0 !important;
+  }
+  .mobilecenter {
+    text-align: center !important; display: block !important;
+  }
+  .email-recommendations .email-recommendations__header {
+    font-size: 13px !important; font-weight: 500 !important;
+  }
+  .email-recommendations .email-recommendations__subheader {
+    font-size: 11px !important;
+  }
+  .email-recommendations .email-recommendations__product {
+    width: 100% !important; display: block !important;
+  }
+  .email-recommendations .email-recommendations__spacer {
+    display: none !important;
+  }
+}
+</style>
+<style data-premailer=3D"ignore">
+</style>
+
+
+<img class=3D"top-stripes-mobile" src=3D"https://static-1.gumroad.com/res/g=
+umroad/assets/email/email_body_top_stripes-4525a90b0f9cd9796223732d4c35aeb7=
+c4e72b5cf1cc327906bea03f83ff961b.png" style=3D"display: block; margin: 0 au=
+to; max-height: 0; max-width: 100%; mso-hide: all; overflow: hidden; width:=
+ 100%">
+<table style=3D"border-collapse: separate; border-spacing: 0; width: 100%">
+<tr>
+<td id=3D"leftcolumn"> </td>
+<td class=3D"middle-column" style=3D"padding: 40px 0 0; width: 562px">
+<img class=3D"top-stripes" src=3D"https://static-1.gumroad.com/res/gumroad/=
+assets/email/email_body_top-a28acbc8d465536ec1a5c9c155d07c1a38ad9de2a3aefb6=
+42ab712732eec5c29.png" style=3D"display: block; height: 12px; margin: 0 aut=
+o; max-width: 100%; width: 562px">
+<table style=3D"border-collapse: separate; border-spacing: 0; width: 100%">
+<tr>
+<td class=3D"content-container" style=3D"background: url(https://static-1.g=
+umroad.com/res/gumroad/assets/email/email_body_middle-d8cc0063b0d5fdccd902d=
+b5ae7d6073b6900dfe14409e3633015d8995fa60be5.png); padding: 20px 30px; width=
+: 562px">
+<div class=3D"hidden-text-for-emails" style=3D"color: #efefe9; display: non=
+e; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; opacity: =
+0; overflow: hidden">	Hey there! I just released a new set for XMD Members =
+only. This set is a 29 Fur Brush set that includes 2048 tilable fur alphas!=
+ The icon renders don'</div>
+<h3 class=3D"update-header" style=3D"color: #252a2e; font-weight: bold; mar=
+gin: 0 0 20px">New Brush Release! Fur! :D</h3>
+<img class=3D"update-cover-image" src=3D"https://s3.amazonaws.com/gumroad/f=
+iles/543928726738/174e2d99659f4213b3b10b3b2a75e91f/original/XMD_Fur_02.jpg"=
+ style=3D"border-radius: 4px; border: 1px solid #ddd; display: block; max-w=
+idth: 100%; width: 100%">
+<div class=3D"with-rich-text" style=3D"word-wrap: break-word">
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word">	</p>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word">Hey there! I just released a new set for X=
+MD <b>Members only</b>. This set is a <b>29 Fur Brush set that includes 204=
+8 tilable fur alphas</b>! The icon renders don't really do these brushes ju=
+stice. To celebrate this release, I am having a<b> 30% off sale</b> on my L=
+ife-Time membership. You can grab this fur brush set along with 20 other me=
+mber only sets! The membership also includes everything I have released on =
+Gumroad.</p>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word"><u><b>Here is what you get with the member=
+ship</b></u></p>
+<ul style=3D"list-style: disc">
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">Over 1100 Zbrush Brushes<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">Substance Painter Brushes<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">3D Coat Brushes<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">Over 800 Alphas to use in any softwa=
+re you want<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">Access to the XMD Private Facebook G=
+roup for Members only<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">The XMD ToolBox Plugin for ZBrush=C2=
+=A0<br>
+</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 15px 20px; word-wrap: break-word">Everything I release on Gumroad in t=
+he future.</li>
+<li style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15=
+px 0 0 20px; word-wrap: break-word">And so much more!</li>
+</ul>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word"><br></p>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word">Grab it while you can. The coupon will exp=
+ire soon! </p>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 10px; word-wrap: break-word">Enjoy :)</p>
+<p style=3D"color: #797874; font-size: 16px; line-height: 27px; margin: 15p=
+x 0 0; word-wrap: break-word"><br></p>
+</div>
+<p class=3D"call-to-action-p" style=3D"color: #797874; font-size: 16px; lin=
+e-height: 27px; margin: 15px 0 0; word-wrap: break-word">
+<a class=3D"button button-primary wide" href=3D"http://email.gumroad.com/wf=
+/click?upn=3DIaSqXFcKN073Ybw4xU-2FpR9vF0v4y7slMvZsMkosKP2J616jaYgjpoBthwiol=
+p44L_ZsvnZjalSWiI7E4CeeXht9nyCbsSujumJHyTUqVcucFgQicx2GE0pto9opP-2BL4CYIOMS=
+6IRXGDIinq5C-2FVQXr1P6SuqH1GgpQ1w98irDA3lTrUe1nQ4hD6p706GZLN-2FanXaeppByncC=
+BtcjNGQptu8LUHog2QiZJzgXt6d4wkFETxwN-2BDf4qTZttK0yZvggzmeepjfApOmzPYYPSMxVb=
+aZ741hK3-2BOoT-2BPWlyezdIKOy91Yo0DY1TNpactzpHifJcaglRxd2T8MP-2BWSnYl0s3Y9qN=
+TdIgo0-2ByyP74TaPWrlLIYznvVNeBa95UTE0UFSAvBC9vGhXrM7fotgY2n7krNRZbTrBpr210s=
+yrUBibVjw2-2BUcQ8W-2BLsWIRShNJ3iC7HNRd1nipJ9EYHs-2BBSBIAynGzCbZDEY8f72JTokx=
+TmC5VpLgSmzmCKfU3GUxsDSHPNnMReiEmWTaBCFXe8yZgM01Lr571uodWWM-2BYhYtkyzhTeDLB=
+T04gbj7zRmhBekPEOVGag0T2pBE8Dia5ftU9wQ-3D-3D" target=3D"_blank" style=3D"ba=
+ckground: #36a9ae; border-radius: 4px; border: 1px solid #4a8589; clear: bo=
+th; color: #fff !important; display: block; font-size: 16px; font-weight: n=
+ormal; line-height: 19px; padding: 8px 12px; text-align: center; text-decor=
+ation: none; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2); word-wrap: break-wor=
+d">I want these brushes!</a>
+</p>
+
+</td>
+</tr>
+</table>
+<img class=3D"bottom" src=3D"https://static-1.gumroad.com/res/gumroad/asset=
+s/email/email_body_bottom-ad94a4e48bcaea03a120c5f35c57f82070f4d87e481b2bcb3=
+1e962db7237eada.png" style=3D"display: block; max-width: 100%">
+</td>
+<td id=3D"rightcolumn"> </td>
+</tr>
+</table>
+<div class=3D"centered footer" style=3D"margin: 20px 0; text-align: center"=
+ align=3D"center">
+<p style=3D"color: #797874; font-size: 14px; line-height: 27px; margin: 15p=
+x 0; padding: 0 15px; word-wrap: break-word">
+You'll get updates from this creator in the future.
+<a href=3D"http://email.gumroad.com/wf/click?upn=3DIaSqXFcKN073Ybw4xU-2FpRx=
+grOIQJyp7ayMn0f6jjELCnZhrdeD6FH1w0QpbgsgPYuPGDgg-2Fp52O3osBerzN-2FDVvMrbTCW=
+PmxaxdQcrqWV1Q-3D_ZsvnZjalSWiI7E4CeeXht9nyCbsSujumJHyTUqVcucFgQicx2GE0pto9o=
+pP-2BL4CYIOMS6IRXGDIinq5C-2FVQXr1P6SuqH1GgpQ1w98irDA3lTrUe1nQ4hD6p706GZLN-2=
+FanXaeppByncCBtcjNGQptu8LUHog2QiZJzgXt6d4wkFETxwN-2BDf4qTZttK0yZvggzmeepjfA=
+pOmzPYYPSMxVbaZ741hK3-2BOoT-2BPWlyezdIKPWYHB8PJphOgi6oHcdV2xoFJVQfWfcp4ZXit=
+57lqXwYe4-2BSwwNkgsYYQG2L4Xv0JeYJDgwIk-2BmUgX5PQ172Gx8kaV0LcVPI8GGedIEd580x=
+rFiAJRNqWftbmSRv-2BvxaJ-2Fk3EEaUDV2-2FsmwIuRNbR2Ju4ZpC2TCQMWE4WzjQy8YXnfVkt=
+ZOBzXXOOPSP21MU0XlAg26DR8jdBwzoUYmhmMRgnFolIQKPCkl560S09bhFl8YidsWCevgO5xST=
+uRv4-2FWSOo2EtvQpkwqaMVYjZ0sv-2FVDGQfR85k85ahujBxsQOg-3D-3D" style=3D"color=
+: #666; text-decoration: underline; word-wrap: break-word">Unfollow</a>.
+</p>
+
+
+<hr style=3D"background: #eee; border: 0; height: 1px; margin: 20px 0; min-=
+height: 1px">
+<p style=3D"color: #797874; font-size: 14px; line-height: 27px; margin: 15p=
+x 0; padding: 0 15px; word-wrap: break-word"><a href=3D"http://email.gumroa=
+d.com/wf/click?upn=3DIaSqXFcKN073Ybw4xU-2FpRwsxvfCimgns-2BztRBS-2FtzNs-3D_Z=
+svnZjalSWiI7E4CeeXht9nyCbsSujumJHyTUqVcucFgQicx2GE0pto9opP-2BL4CYIOMS6IRXGD=
+Iinq5C-2FVQXr1P6SuqH1GgpQ1w98irDA3lTrUe1nQ4hD6p706GZLN-2FanXaeppByncCBtcjNG=
+Qptu8LUHog2QiZJzgXt6d4wkFETxwN-2BDf4qTZttK0yZvggzmeepjfApOmzPYYPSMxVbaZ741h=
+K3-2BOoT-2BPWlyezdIKOsh9-2Bn6otkkg-2B-2FoGTnPMCwxC-2FULtrnIEqa-2BOFKf1Lvyrc=
+BgmbTCzBNeodhbw2IuWyP7HDvtZSc06m4AHtMMwJ0o2EIqTxsima9J-2BZ6HY-2FYksmzlDziAj=
+Xq2-2FC-2Bqg8OWQTuAj4eMAkjcHC8qNO2R4pd6ynwcKq2xL2yts9CfOXCYEYsLXA6jJgq8XPP3=
+qUH2kcJEqvturibewPw0DroBhbOzqoRNX0faT7N7MbKRXPUqwPb0hKdxAJD4RKTu8hK-2BUsO-2=
+F4At-2FzkhX-2FHYmmEur-2Fa2ebF-2B9F5IlOU0DLomPiRK-2Fg-3D-3D" style=3D"color:=
+ #666; text-decoration: underline; word-wrap: break-word">Gumroad</a>, 225 =
+Valencia St, San Francisco, CA=20
+</p>
+<p style=3D"color: #797874; font-size: 14px; line-height: 27px; margin: 15p=
+x 0 0; padding: 0 15px; word-wrap: break-word"></p>
+</div>
+
+<img src=3D"http://email.gumroad.com/wf/open?upn=3DZsvnZjalSWiI7E4CeeXht9ny=
+CbsSujumJHyTUqVcucFgQicx2GE0pto9opP-2BL4CYIOMS6IRXGDIinq5C-2FVQXr1P6SuqH1Gg=
+pQ1w98irDA3lTrUe1nQ4hD6p706GZLN-2FanXaeppByncCBtcjNGQptu8LUHog2QiZJzgXt6d4w=
+kFETxwN-2BDf4qTZttK0yZvggzmeepjfApOmzPYYPSMxVbaZ741hK3-2BOoT-2BPWlyezdIKPBg=
+KgvFgmrFIOwk-2FyTuJRkWS5iP-2BsXIXeFs88koRKc30pVDMEBv4Yhh1O9WCoC9avHybiMkMEA=
+3z8VR9wCq53s-2BkBuUWbEhhcRgbi8sPImG-2BqIYYYUco6f78EIYp00Hufh-2Fy5zr-2BfzeY-=
+2Bwe-2BsQf5eSjjPYkGN4mQ1psi3C52VDOHPjawUE2WkX5S0Z9cndr9K-2FFDVHLQ9M-2FvCane=
+PMJGYYYwY3ZMMRGybpiFBcSZxfurpdeBaja86pMFtSZLNqj981sczLhtFyN52-2FvXARiUYsrKL=
+vT5N5CnnThr614fpt1Hr0BJBPpgZa54cHeFXGmzA-3D" alt=3D"" width=3D"1" height=3D=
+"1" border=3D"0" style=3D"height:1px !important;width:1px !important;border=
+-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;marg=
+in-right:0 !important;margin-left:0 !important;padding-top:0 !important;pad=
+ding-bottom:0 !important;padding-right:0 !important;padding-left:0 !importa=
+nt;"/>
+</body>
+</html>
+
+
+----==_mimepart_59a78f2e74acc_eefca7984904da--
+
+

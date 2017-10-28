@@ -1,0 +1,229 @@
+X-Original-To: f-pcsl@feeds.ers.trendmicro.com
+Delivered-To: f-pcsl@feeds.ers.trendmicro.com
+Received: from cnmsg.net (em.safeplus.org [163.172.21.28])
+	by feed.ops.mail-abuse.com (Postfix) with ESMTP id 44F018E8098
+	for <f-pcsl@feeds.ers.trendmicro.com>; Thu, 31 Aug 2017 04:22:52 +0000 (UTC)
+Received: from gateway-68360 (62-210-93-48.rev.poneytelecom.eu [62.210.93.48]) by
+ cnmsg.net with ESMTP ; Thu, 31 Aug 2017 12:22:25 +0800
+Received: from gateway-68360 (localhost [127.0.0.1]) by filter.local (Postfix) with
+ ESMTP id 547816C022A for <g9096542@trbvm.com>; Thu, 31 Aug 2017 12:22:51
+ +0800 (CST)
+X-Spam-Checker-Version: SpamAssassin 3.4.1 (2015-04-28) on gateway-68360.localhost
+X-Spam-ISSPAM-FLAG: No
+X-Spam-Status: score=0.6 required=5.0 tests=DKIM_SIGNED,DKIM_VALID, DKIM_VALID_AU,EN_MSG_IMAGE,EN_MSG_INTENTIONAL_SPELL_ERROR,EN_W_HEAD_3,
+ HTML_MESSAGE,HTML_OBFUSCATE_05_10,URIBL_SC_SWINOG autolearn=disabled
+Received: from mail1.pcloud.com (mail1.pcloud.com [74.120.8.118]) by gateway-68360 (Postfix)
+ with ESMTPS id 159146C0225 for <g9096542@trbvm.com>; Thu, 31 Aug 2017 12:22:51
+ +0800 (CST)
+Received: from a2 (a2.pcloud.com [74.120.8.77]) (using TLSv1 with cipher
+ ECDHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by
+ mail1.pcloud.com (Postfix) with ESMTPS id 9457F2044F27 for <g9096542@trbvm.com>;
+ Thu, 31 Aug 2017 04:12:28 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=pcloud.email; s=mail; t=1504152748;
+ bh=iSsaJOWNrYKiVdBqU4N2fbcJGCxAgXsM8XdTJOHV0Nc=; h=Date:To:From:Subject:Message-ID:MIME-Version:Content-Type;
+ b=THzf7Dlf/Xp489dtKD1pJr8iVij0KERU6YbY+M14FsLQCZf4jtxgpgIKwsodjP6bt
+ QHUYa73T+5dnUkjywG95CG1Z37H1nQJBEVbSaWNDsR519YPXtF4QHmykjuXzC4Ih7O
+ /Pcc9VyyqqG9XfFLu6gK+EtgQgsCsIGWTT3yZqXw=
+Date: Thu, 31 Aug 2017 04:01:06 +0000
+To: g9096542@trbvm.com
+From: pCloud Team <team@pcloud.email>
+Subject: Your pCloud account is scheduled for deletion in 30 days
+Message-ID: <42090e7caa5c74a72cb5d86f2c5b8e70@a2>
+X-Priority: 3
+Precedence: bulk
+List-Unsubscribe: <https://my.pcloud.com/#page=notificationsettings>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@pcloud.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1_42090e7caa5c74a72cb5d86f2c5b8e70"
+Content-Transfer-Encoding: 7bit
+X-hMailServer-LoopCount: 1
+
+This is a multi-part message in MIME format.
+
+--b1_42090e7caa5c74a72cb5d86f2c5b8e70
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Your pCloud account has been inactive for quite a while and will be delet=
+ed in 30 days.
+
+To make sure that your pictures, videos and documents are not deleted fro=
+m your inactive pCloud account, please log in in the next 30 days.
+
+LOG IN
+https://my.pcloud.com/?verifymailcode=3DCk4RZJJW29h4NX1XJAm8Lma8pbRHM4x67=
+#page=3Dlogin
+
+To ensure delivery to your inbox, please add [team@pcloud.email] to your =
+address book.
+2017 =C2=A9 pCloud AG, 74 Zugerstrasse Str, 6340 Baar, Switzerland.
+
+
+--b1_42090e7caa5c74a72cb5d86f2c5b8e70
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www=
+.w3.org/TR/REC-html40/loose.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"=
+>
+	<!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D=
+edge"/><!--<![endif]-->
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+	<meta name=3D"format-detection" content=3D"telephone=3Dno">
+	<meta name=3D"format-detection" content=3D"date=3Dno">
+	<meta name=3D"format-detection" content=3D"address=3Dno">
+=09
+</head>
+<body style=3D"width:100%;margin:0px 0px 0px 0px;background-color: #fffff=
+f; color: #272829;font-family: 'Roboto',sans-serif;">
+
+<style type=3D"text/css">
+	body{margin:0;padding:0;}
+	img{border:0 none;outline:none;text-decoration:none;}
+	a img{border:0 none;}
+	table, td{border-collapse:collapse;}
+	#bodyTable{height:100% !important;margin:0;padding:0;width:100% !importa=
+nt;}
+	body, h1, h2, h3, div, span, p, a {
+		color: #333333;
+		font-family: Arial;
+		font-size: 16px;
+		word-wrap: break-word;
+		hyphens: auto;
+		-ms-hyphens: auto;
+	}
+	a {color:#3063af;text-decoration: none;}
+	.fb:hover { background-color: #3b5998 !important; }
+	.gp:hover { background-color: #dc4e41 !important; }
+	.tw:hover { background-color: #55acee !important; }
+	@media only screen and (max-width:640px){
+		table, .tablewrap{margin-top: 0px !important;margin-bottom: 0px !import=
+ant;}
+	}
+</style>
+<!--[if mso]>
+<style type=3D"text/css">
+	body{ -ms-text-size-adjust:100%; }
+	.ExternalClass{ width:100%; }
+	.ExternalClass,
+	.ExternalClass p,
+	.ExternalClass span,
+	.ExternalClass font,
+	.ExternalClass td,
+	.ExternalClass div{ line-height: 100%; }
+	.ExternalClass * {line-height: 100%}
+	#outlook a{ padding:0; }
+	table{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+	img{ -ms-interpolation-mode:bicubic; display: block;}
+	table { width: 578px !important; }
+</style>
+<![endif]-->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background-color: #ffffff;margin: 0px 0px 0px 0px;padding: 0px 0=
+px 0px 0px;width: 100%;color: #272829;font-family: 'Roboto',sans-serif;">=
+<tr><td align=3D"center" valign=3D"top">
+<tr>
+<td>
+	<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"tablewrap" style=3D"background-color: #FFFFFF;margin: 20px auto=
+ 20px auto; border-color:#eeeeee; border-width:1px;border-style:solid;">
+=09
+		<tr>
+			<td align=3D"center" valign=3D"top">
+				<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"max-width:578px;">
+					<tr>
+						<td>
+<p style=3D"margin: 43px 0px 5px 50px;">
+							=09
+									<img src=3D"https://d2k5eplsbcgehr.cloudfront.net/Zee/images/mai=
+ls/header/logo_black_small.png" width=3D"140" height=3D"36" style=3D"back=
+ground-color: #FFFFFF; color: #000000;font-size: 14px; text-align: center=
+;" alt=3D"pCloud">
+							=09
+							</p>
+<p style=3D"margin: 35px 50px 0px 50px;word-break: break-word;font-size: =
+24px;font-weight: bold;max-width: 100%; letter-spacing:-1px; -webkit-box-=
+sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;tex=
+t-align:left">
+Your pCloud account has been inactive for quite a while and will be delet=
+ed in 30 days.
+							</p>
+							<p style=3D"margin: 36px 50px 45px 50px;word-break: break-word;fon=
+t-size: 17px;font-weight: normal;max-width: 100%;-webkit-box-sizing: bord=
+er-box;-moz-box-sizing: border-box;box-sizing: border-box; line-height: 1=
+20%">
+To make sure that your pictures, videos and documents are not deleted fro=
+m your inactive pCloud account, please log in in the next 30 days.
+</p>
+
+<p style=3D"margin: 0px 50px 43px 50px;text-align: left;-webkit-box-sizin=
+g: border-box;max-width: 100%;-moz-box-sizing: border-box;box-sizing: bor=
+der-box;">
+								<!--[if mso]>
+									<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D=
+"urn:schemas-microsoft-com:office:word" href=3D"https://www.pcloud.com/tr=
+ackclick?p=3Dmy.pcloud.com%2F%3Futm_source%3Demail%26utm_medium%3Dtemplat=
+e%26utm_campaign%3D30DaysUntilAccountDelete%26verifymailcode=3DCk4RZJJW29=
+h4NX1XJAm8Lma8pbRHM4x67%23page%3Dlogin&u=3D2776026&r=3D612&c=3D024bcaf374=
+d3bf920be1ec5d99bd2ecc46c0db8e" style=3D"height:49px;v-text-anchor:middle=
+;width:289px;" arcsize=3D"7%" strokecolor=3D"#20BDC5" fillcolor=3D"#20BDC=
+5">
+										<w:anchorlock/>
+										<center style=3D"color:#ffffff;font-family:sans-serif;font-size=
+:13px;font-weight:bold;">LOG IN</center>
+									</v:roundrect>
+								<![endif]-->
+								<a href=3D"https://www.pcloud.com/trackclick?p=3Dmy.pcloud.com%2F=
+%3Futm_source%3Demail%26utm_medium%3Dtemplate%26utm_campaign%3D30DaysUnti=
+lAccountDelete%26verifymailcode=3DCk4RZJJW29h4NX1XJAm8Lma8pbRHM4x67%23pag=
+e%3Dlogin&u=3D2776026&r=3D612&c=3D024bcaf374d3bf920be1ec5d99bd2ecc46c0db8=
+e" style=3D"color: #FFF; font-size:17px; text-align:center; background-co=
+lor: #20BDC5;text-decoration: none;width: 240px;font-weight: bold;display=
+: inline-block; padding: 12px 0px 12px 0px;border: 0px solid #20BEC6;bord=
+er-radius: 24px;-moz-border-radius: 24px;-webkit-border-radius: 24px;mso-=
+hide:all;">LOG IN</a></p>
+									</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr style=3D"background-color: #ffffff;">
+			<td align=3D"leftr" valign=3D"top">
+				<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"max-width:578px;">
+					<tr>
+						<td align=3D"left">
+							<p style=3D"margin: 0 0 44px 50px;color: #888888;font-size: 12px;l=
+ine-height: 20px;max-width: 100%;-webkit-box-sizing: border-box;-moz-box-=
+sizing: border-box;box-sizing: border-box;">
+								To ensure delivery to your inbox, please add [team@pcloud.email] =
+to your address book.<br/>
+								2016 =C2=A9 pCloud AG, 74 Zugers<span></span>trasse St<span></spa=
+n>r, 6340 Ba<span></span>ar, Swit<span></span>zerland.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</tr>
+</td>
+</table>
+
+<img src=3D"https://www.pcloud.com/trackopen?p=3DCk4RZI0ZwFru2Ou6S98g2zBb=
+0rdCN0QUbOYV" height=3D"1" width=3D"1"></body>
+</html>
+
+
+
+--b1_42090e7caa5c74a72cb5d86f2c5b8e70--
+
+

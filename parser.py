@@ -79,7 +79,7 @@ class Parser(object):
 		# not done here
 		csv_columns = ['Keyword','Catagory']
 		try:
-			with open("mydata.csv", 'w') as csvfile:
+			with open("keywords.csv", 'w') as csvfile:
 				writer = csv.writer(csvfile)
 				for key, value in self.dictionary.items():
 					temp = [key, value]
