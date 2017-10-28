@@ -61,7 +61,7 @@ def get_ret_type(html_content):
     pretar_str = '<div class="labeltitlesmallresult">'
     tar_addr = html_content.find(pretar_str) + len(pretar_str)
     ret_type = html_content[tar_addr, tar_addr + 16].split("</div>")[0]
-    return ret_type
+    return [ret_type]
 
 
 def detect_url_type(url_list):
@@ -76,7 +76,9 @@ def detect_url_type(url_list):
             session.get(base_url)
             res = session.post(target_url, data=payload)
 
-        ret_type = get_ret_type(res.text)
+        ret_type += get_ret_type(res.text)
+
+    return ret_type
             
         
 def translate_content(eml_content):
@@ -107,7 +109,7 @@ def main():
     url_list = get_url(eml_content)
 
     # send url to trend site safety center to help us detect url type 
-    detect_url_type(url_list)
+    ret_type = detect_url_type(url_list)
 
     # translate to English
     trans_content = translate_content(eml_content)
