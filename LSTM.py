@@ -7,6 +7,7 @@
 #	author: Y.W. Chen
 #	Date:	Oct. 26, 2017
 #	Version	1.0	Oct. 26, 2017	Tensorflow kernal
+#   Version 3.0 Oct. 28, 2017   Tensorflow kernal with LSTM build
 #	=========================================
 """
 import numpy as np
@@ -15,20 +16,25 @@ import tensorflow as tf
 import os
 
 
+# seeding
 tf.set_random_seed(1)
 
-
-
-n_inputs = 100	#  data input (img shape: 28*28)
+n_inputs = 100	#  data input (img shape: 100*30)
 n_steps = 30	# time steps
 n_hidden_units = 128	# neurons in hidden layer
-n_classes = 10 # classes (0-9 digits)
+n_classes = 3 # classes (0-9 digits)
 
 
 # tf Graph input
 x = tf.placeholder(tf.float32, [None, n_steps, n_inputs])
 y = tf.placeholder(tf.float32, [None, n_classes])
 
+
+# Data
+x_train = tf.placeholder(tf.float32, [None, n_steps, n_inputs])
+x_test = tf.placeholder(tf.float32, [None, n_steps, n_inputs])
+y_train = tf.placeholder(tf.float32, [None, n_classes])
+y_test = tf.placeholder(tf.float32, [None, n_classes])
 
 # Weights
 weights = tf.Variable(tf.random_normal([input_dim, hidden_dim], dtype=tf.float32), name='weights')
@@ -39,9 +45,9 @@ bias = tf.Variable(tf.constant(0.1, shape=[n_hidden_units, ]))
 
 # Define weights
 weights = {
-    # (28, 128)
+    # (100, 128)
     'in': tf.Variable(tf.random_normal([n_inputs, n_hidden_units])),
-    # (128, 10)
+    # (128, 3)
     'out': tf.Variable(tf.random_normal([n_hidden_units, n_classes]))
 }
 biases = {
@@ -57,13 +63,13 @@ def RNN(X, weights, biases):
     ########################################
 
     # transpose the inputs shape from
-    # X ==> (128 batch * 28 steps, 28 inputs)
+    # X ==> (128 batch * 30 steps, 100 inputs)
     X = tf.reshape(X, [-1, n_inputs])
 
     # into hidden
-    # X_in = (128 batch * 28 steps, 128 hidden)
+    # X_in = (128 batch * 30 steps, 128 hidden)
     X_in = tf.matmul(X, weights['in']) + biases['in']
-    # X_in ==> (128 batch, 28 steps, 128 hidden)
+    # X_in ==> (128 batch, 30 steps, 128 hidden)
     X_in = tf.reshape(X_in, [-1, n_steps, n_hidden_units])
 
     # cell
@@ -77,18 +83,12 @@ def RNN(X, weights, biases):
     # lstm cell is divided into two parts (c_state, h_state)
     init_state = cell.zero_state(batch_size, dtype=tf.float32)
 
-    # You have 2 options for following step.
-    # 1: tf.nn.rnn(cell, inputs);
-    # 2: tf.nn.dynamic_rnn(cell, inputs).
-    # If use option 1, you have to modified the shape of X_in, go and check out this:
-    # https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/recurrent_network.py
-    # In here, we go for option 2.
+
     # dynamic_rnn receive Tensor (batch, steps, inputs) or (steps, batch, inputs) as X_in.
     # Make sure the time_major is changed accordingly.
     outputs, final_state = tf.nn.dynamic_rnn(cell, X_in, initial_state=init_state, time_major=False)
 
     # hidden layer for output as the final results
-    #############################################
     # results = tf.matmul(final_state[1], weights['out']) + biases['out']
 
     # # or

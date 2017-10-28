@@ -34,13 +34,13 @@ class Parser(object):
 				train_dir = address + '/' + category_name
 				self.read_mails(train_dir)
 				self.build_dataset(cnt_category)
+				print(category_name + " : "+str(cnt_category))
 				cnt_category += 1
-				print(category_name)
 				print("------------------")
 				# print(os.listdir(category_name))
 		self.concise()
 		print("===================")
-		# print(vocab_size)
+		print("vocabuary data size is " + str(len(self.dictionary)))
 
 	def read_mails(self, train_dir):
 		emails = [os.path.join(train_dir,f) for f in os.listdir(train_dir)]
@@ -50,6 +50,12 @@ class Parser(object):
 			with open(email) as m:
 				for i,line in enumerate(m):
 					if i != 0: #Bodt of email is only 1 line of text file
+						if len(line) < 6:
+							continue # prevent strange text
+						if len(line) > 250:
+							continue # prevent strange text
+						if re.match(r'\s', line):
+							continue # prevent strange text
 						words = line
 						pattern3 = re.compile("[^\w\d]+")
 						words = pattern3.sub(' ',words)

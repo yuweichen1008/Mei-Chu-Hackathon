@@ -1,0 +1,234 @@
+Read now: 5 Steps to a Clear Cloud Strategy
+
+
+
+@media screen and (max-width: 550px) {
+.email-main-wrapper .banner-image, .email-main-wrapper .city-image { width: 100% !important; }
+}
+@media screen and (max-width:500px) {
+.cta-large a { font-size: 16px !important; }
+.cta-large { height: 50px !important }
+.responsive-column { display: block !important; margin: 0 auto; }
+}
+@media screen and (max-width:400px) {
+h1 { font-size: 30px !important; line-height: 30px !important; }
+h2 { font-size: 20px !important; line-height: 23px !important; }
+h3.pre-title-h3 { font-size: 12px !important; line-height: 25px !important; }
+div.content-wrapper { font-size: 14px !important; line-height: 22px !important; }
+.cta-small { font-size: 14px !important; height: 37px !important; width: 165px !important; }
+.cta-small a { font-size: 14px !important; }
+#suse-logo { width: 90px !important; height: auto !important; }
+}
+
+
+
+
+
+
+
+
+
+
+View Online
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operations be nimble. Innovations be quick.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Digitalize your data center quickly, economically, and without risk
+A revolution is happening inside your data center. New digital paradigms—from IoT to the cloud—are forcing you to revamp your infrastructure to stay competitive. But without additional budget, how can you quickly move to the cloud or hybrid IT and keep existing services running and do it all right now? 
+Micro Focus data center transformation solutions make it possible. They accelerate your adoption of essential digital platforms, like the cloud, without disrupting your business. 
+Ready to innovate faster, with less risk? Read this instructive article.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TITLE:
+TechBeacon article: Five Steps to a Clear Cloud Strategy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read the article now ›
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print{ #_t { background-image: url('https://kitnfahb.emltrk.com/kitnfahb?p&d=c1078757@trbvm.com');}} div.OutlookMessageHeader {background-image:url('https://kitnfahb.emltrk.com/kitnfahb?f&d=c1078757@trbvm.com')} table.moz-email-headers-table {background-image:url('https://kitnfahb.emltrk.com/kitnfahb?f&d=c1078757@trbvm.com')} blockquote #_t {background-image:url('https://kitnfahb.emltrk.com/kitnfahb?f&d=c1078757@trbvm.com')} #MailContainerBody #_t {background-image:url('https://kitnfahb.emltrk.com/kitnfahb?f&d=c1078757@trbvm.com')}
+
+
+
+
+
+
+
+
+
+
+
+To unsubscribe c1078757@trbvm.com from Micro Focus mailings, visit the subscription management page.
+
+						Copyright © 2017 Micro Focus. All rights reserved.
+						Registered office: The Lawn, 22-30 Old Bath Road Newbury, Berkshire, RG14 1QN, UK.
