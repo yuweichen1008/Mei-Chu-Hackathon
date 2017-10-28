@@ -1,0 +1,8 @@
+virus
+hey there
+
+I'm putting around 4 million different keys into a Python dictionary. Creating this dictionary takes about 15 minutes and consumes about 4GB of memory on my machine. After the dictionary is fully created, querying the dictionary is fast.
+
+I suspect that dictionary creation is so resource consuming as the dictionary is very often rehashed (as it grows enormously). Is is possible to create a dictionary in Python with some initial size or bucket number?
+
+My dictionary points from a number to an object.
