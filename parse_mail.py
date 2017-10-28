@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# requiremt: munpack (apt), googletrans (pip3), urlextract (pip3)
+# requiremt: mpack (apt), googletrans (pip3), urlextract (pip3)
 
 import sys
 import os
@@ -11,40 +11,51 @@ import googletrans
 import urlextract
 
 
-def gen_parsed_file(filename):
-    # extract html file and plain content
-    try:
-        cmd = "munpack " + filename + " -t"
-        ret = subprocess.check_output(cmd.split())
-    except subprocess.CalledProcessError:
-        print(cmd + "is failed")
-        sys.exit()
-    
-    
-def read_file(filename):
-    lines = ""
-    try:
-        with open(filename, 'r') as f:
-            for line in f.readlines():
-                lines += line
-    except FileNotFoundError:
-        print(filename, "is not exit")
+#   def gen_parsed_file(filename):
+#       # extract html file and plain content
+#       try:
+#           cmd = "munpack " + filename + " -t"
+#           ret = subprocess.check_output(cmd.split())
+#       except subprocess.CalledProcessError:
+#           print(cmd + "is failed")
+#           sys.exit()
+#       
+#       
+#   def read_file(filename):
+#       lines = ""
+#       try:
+#           with open(filename, 'r') as f:
+#               for line in f.readlines():
+#                   lines += line
+#       except FileNotFoundError:
+#           print(filename, "is not exit")
 
-    return lines
-        
+#       return lines
+#           
 
-def write_file(filename, content):
-    with open(filename, 'w') as f:
-        f.write(content)
+#   def write_file(filename, content):
+#       with open(filename, 'w') as f:
+#           f.write(content)
 
+
+#   def get_eml_content(filename):
+#       gen_parsed_file(filename)
+
+#       f_part1 = bs4.BeautifulSoup(read_file("part1"), "lxml").text
+#       f_part2 = bs4.BeautifulSoup(read_file("part2"), "lxml").text
+
+#       return [f_part1, f_part2]
 
 def get_eml_content(filename):
-    gen_parsed_file(filename)
+    content = []
+    msg = email.message_from_file(filename)
+    if msg.is_multipart():
+        for payload in msg.get_payload():
+            content.append(bs4.BeautifulSoup(payload.get_payload(decode=True).text)
+    else:
+        content.append[bs4.BeautifulSoup(msg.get_payload(decode=True).text]
 
-    f_part1 = bs4.BeautifulSoup(read_file("part1"), "lxml").text
-    f_part2 = bs4.BeautifulSoup(read_file("part2"), "lxml").text
-
-    return [f_part1, f_part2]
+    return content
 
 
 def get_url(eml_content):
@@ -58,9 +69,13 @@ def get_url(eml_content):
 
 
 def get_ret_type(html_content):
-    pretar_str = '<div class="labeltitlesmallresult">'
-    tar_addr = html_content.find(pretar_str) + len(pretar_str)
-    ret_type = html_content[tar_addr, tar_addr + 16].split("</div>")[0]
+    print(html_content)
+    sys.exit()
+    pretar_str = "<div class=\"labeltitlesmallresult\">"
+    print(html_content.find(pretar_str))
+    tar_offset = html_content.find(pretar_str) + len(pretar_str)
+    ret_type = html_content[tar_offset:].split("</div>")[0]
+    print(ret_type)
     return [ret_type]
 
 
