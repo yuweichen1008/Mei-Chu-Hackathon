@@ -1,5 +1,8 @@
 samples/*
 training_data/*
 mails/*
+__*/*
+.*/*
+data/*
 *.ipynb
 *.pyc

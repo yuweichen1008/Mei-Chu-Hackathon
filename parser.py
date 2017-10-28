@@ -10,9 +10,12 @@ trust
 #	author: Y.W. Chen
 #	Date:	Oct. 26, 2017
 #	Version	1.0	Oct. 26, 2017
+#	Version 3.0 Oct. 28, 2017	Fail in shuffle function, no need to build the dict
+#	Version 5.0 Oct. 29, 2017	Recover from version 1.0
 #	=========================================
 
 """
+
 import re
 import os
 import csv
@@ -36,6 +39,7 @@ class Parser(object):
 				self.build_dataset(cnt_category)
 				print(category_name + " : "+str(cnt_category))
 				cnt_category += 1
+				self.all_words[:] = []
 				print("------------------")
 				# print(os.listdir(category_name))
 		self.concise()
@@ -60,12 +64,14 @@ class Parser(object):
 						pattern3 = re.compile("[^\w\d]+")
 						words = pattern3.sub(' ',words)
 						dicts = words.split()
-						self.all_words += dicts
+						for word in dicts:
+							if(len(word) < 10):
+								self.all_words.append(word.lower())
 		# print(dictionary)
 		# self.concise()
 
 	def build_dataset(self, catagory_number):
-		count = collections.Counter(self.all_words).most_common()
+		count = collections.Counter(self.all_words).most_common(320)
 		for word, _ in count:
 			self.dictionary[word] = catagory_number;
 
@@ -78,7 +84,6 @@ class Parser(object):
 				for key, value in self.dictionary.items():
 					temp = [key, value]
 					writer.writerow(temp)
-				
 				
 		except IOError as (errno, strerror):
 			print("I/O error({0}): {1}".format(errno, strerror))
@@ -97,6 +102,5 @@ class Parser(object):
 			elif len(item) == 1:
 				del self.dictionary[item]
 
-		count = collections.Counter(self.dictionary).most_common(3000)
-		print(count)
+		count = collections.Counter(self.dictionary).most_common(200)
 		self.reverse_dictionary = dict(zip(self.dictionary.values(), self.dictionary.keys()))

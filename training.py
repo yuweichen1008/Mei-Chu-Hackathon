@@ -10,7 +10,7 @@ from difflib import SequenceMatcher
 
 class Training:
 	def __init__(self):
-		self.classname = ['Ads','Hams', 'Spam']	# 0, 1, 2
+		self.classname = ['Hams', 'Spam']	# 0, 1
 		self.feature = []
 		self.keywords = []
 
