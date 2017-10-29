@@ -7,9 +7,13 @@ data/
 
 mail/
 	testing dataset
+	Catagories:
+	1. Advertisement
+	2. Hams
+	3. Spams
 
 samples/
-	Trend Micro Co. provided dataset
+	Trend Micro Co. provided dataset, around 280,000 emails
 
 
 ## Code explain

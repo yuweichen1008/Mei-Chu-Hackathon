@@ -6,7 +6,7 @@ import os
 import numpy as np
 import random
 from difflib import SequenceMatcher
-
+import time
 
 class Testing:
     def __init__(self, keyword_file ,testing_folder):
@@ -70,14 +70,8 @@ class Testing:
         try:
             with open("data.csv", 'w') as csvfile:
                 writer = csv.writer(csvfile)
-                k = []
-                for i in self.result[0]:
-                    l = []
-                    for row in self.result:
-                        l.append(row)
-                    k.append(l)
-                for kr in k:
-                    writer.writerow(kr)
+                for row in self.result:
+                    writer.writerow(row)
         except IOError as (errno, strerror):
             print("I/O error({0}): {1}".format(errno, strerror))
         return
@@ -89,32 +83,16 @@ class Testing:
         self.catagory[:], self.context[:] = zip(*combined)
         self.read_keyword() # parse keyword from csv
         # print(len(self.keyword))
-        for key  in self.keyword:
+        for (key, value)  in self.keyword:  # bug here
             feature_vector = []
-            
             for i in range(len(self.context)):
                 content = self.read_email_context(self.context[i])
+                print(str(key) +  " and " + str(content))
                 mail = SequenceMatcher(None, content, key) # content plain-text
-                feature_vector.append(mail.ratio())
+                feature_vector.append(mail.ratio()*100)
             self.result.append(feature_vector) # num_key * num_data
         # print(len(self.result)) 390
         # print(len(self.result[0])) 22554
-
-    def read_email_context(self, mail):
-        content = ""
-        for i,line in enumerate(mail):
-            cnt_line = 0 
-            if cnt_line <= i and i > 3: # prevent error
-                cnt_line += 1
-                if len(line) < 6:
-                    continue # prevent strange text
-                if len(line) > 250:
-                    continue # prevent strange text
-                if re.match(r'\s', line):
-                    continue # prevent strange text
-                if re.match(r'\w', line):
-                    content += " " + line
-        return content
 
     def read_keyword(self):
         x = []
@@ -126,6 +104,7 @@ class Testing:
                 y.append(row[1])    # catagory
         zipped = zip(x,y)
         self.keyword = list(zipped)
+        
 
 if __name__ == "__main__":
     if len(sys.argv) is not 3:

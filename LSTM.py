@@ -19,8 +19,8 @@ import os
 # seeding
 tf.set_random_seed(1)
 
-n_inputs = 100	#  data input (img shape: 100*30)
-n_steps = 30	# time steps
+n_inputs = 39	#  data input (img shape: 39*30)
+n_steps = 1 0	# time steps
 n_hidden_units = 128	# neurons in hidden layer
 n_classes = 3 # classes (0-9 digits)
 
