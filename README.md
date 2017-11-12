@@ -27,3 +27,9 @@ tensorflow LSTM model
 #### data_parsing.py
 
 parse data from mail/
+
+
+#### Reference
+1. [Classification of Phishing Email](https://www.hindawi.com/journals/jam/2014/425731/)
+
+Explain the concept with random forest method for classifying emails
